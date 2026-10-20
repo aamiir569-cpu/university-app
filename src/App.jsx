@@ -1,10 +1,9 @@
 import "./App.css";
-import Header from "./components/Header.jsx";
-import Navbar from "./components/Navbar.jsx";
-import StudentCard from "./components/StudentCard.jsx";
-import Footer from "./components/Footer.jsx";
+import Header from "../components/header.jsx";
+import Navbar from "../components/Navbar.jsx";
+import StudentCard from "../components/StudentCard.jsx";
+import Footer from "../components/footer.jsx";
 import studentImage from "./assets/emir.jpg";
-
 const etudiants = [
   {
     prenom: "Slim",

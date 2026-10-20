@@ -1,5 +1,5 @@
 import "./StudentCard.css";
-import defaultImage from "../assets/student.jpg";
+import defaultImage from "../src/assets/emir.jpg";
 
 function StudentCard(props) {
   // Valeurs par défaut quand une information n'est pas fournie
@@ -8,7 +8,7 @@ function StudentCard(props) {
 
   return (
     <div className="card">
-      <img src="./assets/emir.jpg" alt="Photo de l'étudiant" />
+      <img src= "../src/assets/emir.jpg" alt="Photo de l'étudiant" />
 
       <h2>Fiche étudiant</h2>
 
